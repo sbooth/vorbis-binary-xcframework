@@ -6,8 +6,9 @@ import PackageDescription
 let package = Package(
 	name: "vorbis-binary-xcframework",
 	platforms: [
-		.macOS(.v10_15),
-		.iOS(.v14),
+		.macOS(.v11),
+		.iOS(.v15),
+		.tvOS(.v15),
 	],
 	products: [
 		// Products define the executables and libraries a package produces, making them visible to other packages.
@@ -22,7 +23,7 @@ let package = Package(
 		// Targets can depend on other targets in this package and products from dependencies.
 		.binaryTarget(
 			name: "vorbis",
-			url: "https://github.com/sbooth/vorbis-binary-xcframework/releases/download/0.1.0/vorbis.xcframework.zip",
-			checksum: "f02a5b5e0d00c54d0b8142a8db7ed96c4ec35b965a32fee1e194d19d48c1a6ff"),
+			url: "https://github.com/sbooth/vorbis-binary-xcframework/releases/download/0.1.1/vorbis.xcframework.zip",
+			checksum: "e0e2ec7a3db4b2b0fde51f694718b945daf2b635d6099910f4d2ece99a51158f"),
 	]
 )
