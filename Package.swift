@@ -23,7 +23,7 @@ let package = Package(
 		// Targets can depend on other targets in this package and products from dependencies.
 		.binaryTarget(
 			name: "vorbis",
-			url: "https://github.com/sbooth/vorbis-binary-xcframework/releases/download/0.1.1/vorbis.xcframework.zip",
-			checksum: "e0e2ec7a3db4b2b0fde51f694718b945daf2b635d6099910f4d2ece99a51158f"),
+			url: "https://github.com/sbooth/vorbis-binary-xcframework/releases/download/0.1.2/vorbis.xcframework.zip",
+			checksum: "063843e2bfd1e85e445e3d03d4263268118dfb91406f5e74c33ce68a02865247"),
 	]
 )
